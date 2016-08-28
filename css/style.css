@@ -1,0 +1,230 @@
+/*
+
+style.css
+
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+body {
+    background: linear-gradient(to bottom right, #542437 0%, #CDB380 100%) 100% no-repeat;
+    overflow: auto;
+}
+html{
+    overflow: auto;
+}
+div {
+    display: block;
+}
+
+a,
+p {
+    color: white;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Header */
+
+.top-bar,
+.top-bar ul {
+    background: none;
+    color: white;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+.top-bar-left {
+    width: 30%!important;
+}
+
+/* Jumbotron */
+
+.container {
+    width: 680px;
+    height: 295px;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+    border-radius: 20px 20px 0px;
+    margin: 100px auto;
+    position: relative;
+    clear: both;
+}
+
+.container:after {
+    display: block;
+    clear: both;
+}
+
+.left {
+    width: 300px;
+    text-align: center;
+    float: left;
+    display: block;
+    position: relative;
+    box-shadow: 48px 94px 66px -95px black;
+}
+
+.right {
+    width: 370px;
+    display: block;
+    /*padding: 20px;*/
+    float: left;
+}
+
+.profile {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    box-shadow: -17px -2px 13px -14px black;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    z-index: 40;
+}
+
+.background {
+    height: 250px;
+    width: 300px;
+    background-color: #2c3e50;
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+}
+
+.background:after {
+    height: 300px;
+    width: 300px;
+    content: " ";
+    background: #34495e;
+    position: absolute;
+    right: -190px;
+    top: 20px;
+    transform: rotate(40deg);
+    box-shadow: 10px 10px 20px black;
+}
+
+.flip-it {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
+    filter: FlipH;
+}
+
+
+/* Right */
+
+.right h1 {
+    margin: 0px;
+    font-size: 25px;
+    color: white;
+}
+
+.background-right {
+    background: linear-gradient(to right, rgba(52, 73, 94, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    position: relative;
+    z-index: 0;
+    padding: 10px;
+}
+
+.right {
+    background: slategray;
+    position: relative;
+    z-index: -1;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.meter {
+    height: 15px;
+    /* Can be anything */
+    position: relative;
+    background: #0e1f2f;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 4px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.meter> span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(43, 194, 83);
+    background-image: linear-gradient( center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow {
+    clear: both;
+    width: 0;
+    height: 0;
+    display: block;
+    position: relative;
+    border-top: 69px solid #34495e;
+    border-bottom: 0px solid transparent;
+    border-left: 75px solid transparent;
+    top: -68px;
+    left: 177px;
+}
+
+.arrow:after {
+    clear: both;
+    width: 0;
+    height: 0;
+    content: "";
+    display: block;
+    position: relative;
+    border-top: 66px solid #34495e;
+    border-bottom: 0px solid transparent;
+    border-left: 50px solid #34495e;
+    top: -66px;
+    left: 0px;
+}
+
+.list {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.list li {
+    display: inline;
+}
+
+li a {
+    font-size: 20px;
+    line-height: 36px
+}
+
+/* Rows */
+
+.row-content{
+    margin: 50px auto;
+}
