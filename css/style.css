@@ -6,7 +6,7 @@ style.css
 
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 body {
-    background: linear-gradient(to bottom right, #542437 0%, #CDB380 100%) 100% no-repeat;
+    background: linear-gradient(to bottom right, #2c3e50 0%, #ffffff 100%) 100% no-repeat;
     overflow: auto;
 }
 html{
@@ -231,7 +231,14 @@ li a {
 
 
 /* Project Section */
-
+#projects{
+  background: #2c3e50;
+}
+#projects h2{
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
 .section-item{
   float: left;
     height: 139px;
