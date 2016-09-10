@@ -27,6 +27,10 @@ ul {
     list-style: none;
 }
 
+section{
+  margin-top: 40px;
+}
+
 
 /* Header */
 
@@ -233,7 +237,7 @@ li a {
 
 
 /* Project Section */
-#projects{
+#project-section{
   background: #2c3e50;
 }
 #projects h2{
@@ -334,4 +338,19 @@ li a {
     opacity: 1;
     top: 0;
   }
+}
+
+/* About Section */
+
+#about-section h2{
+  text-align: center;
+}
+
+
+/* Footer Section */
+
+footer{
+  background: #2c3e50;
+  padding: 20px 0;
+  margin-top: 40px;
 }
