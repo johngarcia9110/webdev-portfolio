@@ -28,43 +28,23 @@
             </div>
         </div>
     </div>
-    <div class="row row-content">
-        <div class="container">
-            <div class="left">
-                <div class="background">
-                    <img class="profile flip-it" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/11110775_374862026057862_4116316599895903162_n.jpg?oh=535e7fd64e56ba6a5a21a0fc29a9c5f9&oe=5851C2D7" alt="" />
-                    <h1>JOHN GARCIA</h1>
-                </div>
-            </div>
-            <div class="right">
-                <div class="background-right">
-                    <div class="info-container">
-                        <h1>SKILLS:</h1>
-                        <hr>
-                        <p>HTML</p>
-                        <div class="meter">
-                            <span style="width: 90%"></span>
-                        </div>
-                        <p>CSS</p>
-                        <div class="meter">
-                            <span style="width: 80%"></span>
-                        </div>
-                        <p>JAVSCRIPT</p>
-                        <div class="meter">
-                            <span style="width: 40%"></span>
-                        </div>
-                        <div class="links">
-                            <ul class="list">
-                                Follow:
-                                <li><a href="https://github.com/johngarcia9110"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
+    <div id='background-container' class="background-container">
+        <div class="background-output" id="background-output">
+        </div>        
+    </div>
+    <section id='jumbotron'>
+        <div class="row row-content">
+            <div class="jumbo-content">
+                <div class="small-12 columns">
+                    <div class="info">
+                        <h1 id="jumbH">JOHN GARCIA</h1>
+                        <p>FRONT END DEVELOPER</p>
                     </div>
+                    <img class="jumbologo" src="img/profile.png"></img>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <section id="project-section">
         <div class="row row-content">
             <h2>STUFF I'VE DONE.</h2>
@@ -149,6 +129,9 @@
         </div>
     </footer>
     <script src="js/vendor/jquery.js"></script>
+    <script src="js/flat-surface-shader.js"></script>
+    <script src="js/shader.js"></script>
+    
     <script src="js/vendor/foundation.js"></script>
     <script>
         $(document).foundation();
