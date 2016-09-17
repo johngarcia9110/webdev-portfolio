@@ -21,8 +21,8 @@ $(function() {
             },
 
             MESH: {
-				ambient: '#005788', // Default 
-                diffuse: '#00ffb3', // Default
+				ambient: '#000000', // Default 
+                diffuse: '#646464', // Default
                 width: 1.2, // Triangle Width
                 height: 1.2, // Triangle Height
                 depth: 10, // Transparency of the triangles
@@ -31,13 +31,13 @@ $(function() {
                 xRange: 0.8, // Wideness of the triangles in X Position
                 yRange: 0.1, // Wideness of the triangles in Y Position
                 zRange: 1.0, // Wideness of the triangles in Z Position
-                speed: 0.001 // Speed of the moving traingles
+                speed: 0.0003 // Speed of the moving traingles
             },
 
             LIGHT: {
-				autopilot: true, // Set this to true if you want the light to follow your mouse cursor
-				ambient: '#880066',
-                diffuse: '#ff8800',
+				autopilot: false, // Set this to true if you want the light to follow your mouse cursor
+				ambient: '#003f88',
+                diffuse: '#00d1ff',
 				count: 2, // Contrast 
                 zOffset: 100,
 				

@@ -59,15 +59,36 @@ ul {
 }
 
 .jumbologo {
-  display: inline-block;
+  display: block;
+  max-width: 100px;
+  position: absolute;
+  top: -55px;
+  left: 42%;
+  border: 3px solid white;
+  background: #003f4c;
+  border-radius: 50%;
+  padding: 5px;
 }
 
 #jumbH {
   font-size: 80px;
+  margin-top: 60px;
 }
 
 .info {
-  margin-top: 80px;
+  text-align: center;
+  max-width: 630px;
+  margin: 80px auto;
+  border: 1px solid white;
+  position: relative;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background: rgba(0, 13, 16, 0.28);
+  box-shadow: 0px 0px 64px 0px #0099ba;
+}
+
+.info p{
+  margin-bottom: 40px;
 }
 
 .container {
@@ -154,6 +175,19 @@ h1 {
 }
 
 
+.social-list li{
+  display: inline-block;
+  padding: 20px;
+}
+.social-list{
+    background: #001418;
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid white;
+}
 /* Right */
 
 .right h1 {
